@@ -76,7 +76,7 @@ namespace mod
     {
         wii::gx::GXColor notgreen = {200, 50, 25, 255};
         f32 scale = 0.8f;
-        const char *msg = "SPM Good Speedgame Edition v1";
+        const char *msg = "SPM Speed Patches v1";
         spm::fontmgr::FontDrawStart();
         spm::fontmgr::FontDrawEdge();
         spm::fontmgr::FontDrawColor(&notgreen);
