@@ -143,7 +143,7 @@ namespace mod
 
         evtpatch::hookEvtReplace(spm::he1_01::tippi_tutorial_evt, 41, ch1_ww);
         spm::evtmgr_cmd::EvtScriptCode *ls1_06_init_evt = spm::map_data::mapDataPtr("ls1_06")->initScript;
-        evtpatch::hookEvt(ls1_06_init_evt, 18, pre2_ladder);
+        evtpatch::hookEvt(ls1_06_init_evt, 17, pre2_ladder); //Turtle
         spm::evtmgr_cmd::EvtScriptCode *ls1_10_init_evt = spm::map_data::mapDataPtr("ls1_10")->initScript;
         evtpatch::hookEvt(ls1_10_init_evt, 2, bowser_skip);
         spm::evtmgr_cmd::EvtScriptCode *ls4_13_init_evt = spm::map_data::mapDataPtr("ls4_13")->initScript;
